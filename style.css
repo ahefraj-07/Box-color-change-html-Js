@@ -1,0 +1,47 @@
+.animation-box{
+    background-color: black;
+    border: 5px solid red;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 30px;   
+    color: white;
+    
+    align-items: center;
+}
+button{
+    color: rgb(244, 227, 227);
+    background-color: green;
+    
+    border-radius: 60px;
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 20px 10px;
+    transition: background-color 0.3s;
+    margin-left: 257px;
+    width: 20%;
+    display: flex;
+}
+    
+
+.head-color{
+    
+    color: rgb(230, 244, 230);
+    font-weight: bold;
+    margin-left: 180px;
+    border: 20px;
+    
+    border-radius: 20px;
+    font-size: 50px;
+    
+    
+}
+.full-box{
+    background-color: black;
+    border-radius: 20px;
+    height: 500px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
