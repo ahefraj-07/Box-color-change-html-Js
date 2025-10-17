@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Change</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+        <div class="full-box">
+        <h2 class="head-color">Color Change</h2>
+        <div class="animation-box" id="color-box">look at the color</div>
+        <button onclick="changecolor()">change color</button>
+        <button onclick="resetColor()">Reset</button>
+        </div>
+
+    
+    </body>
+    <script>
+        const text = document.getElementById('color-box');
+        const colorbox = document.getElementById('color-box');
+        const orginalColor = colorbox.style.backgroundColor;
+        
+        
+
+        function changecolor(){
+            const random = "#" + Math.floor(Math.random()*16777215).toString(16);
+            const random2 = "#" + Math.floor(Math.random()*167772).toString(16);
+            text.style.color = random;
+            colorbox.style.backgroundColor = random2; 
+        }
+       
+        function resetColor(){
+            colorbox.style.backgroundColor = orginalColor;
+        }
+
+        
+
+    </script>
+
+
+</html>
